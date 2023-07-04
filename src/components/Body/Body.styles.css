@@ -1,0 +1,8 @@
+#body {
+  margin: 0;
+  width: 100vw;
+  min-height: 100vh;
+  height: max-content;
+  background-image: linear-gradient(#ffdcf3, #d7ffff);
+  font-size: 50px;
+}

@@ -1,0 +1,52 @@
+#navbar {
+  margin: auto;
+  width: 70%;
+  height: 57px;
+  position: relative;
+  top: 27px;
+}
+.nav-menu {
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-menu li {
+  width: 80px;
+  height: 40px;
+  list-style: none;
+  font-size: 18.51px;
+  font-weight: 300;
+}
+.logo-container {
+  width: fit-content;
+  height: fit-content;
+}
+.logo {
+  width: auto;
+  height: 40px;
+}
+.logo-title {
+  margin-left: 10px;
+  width: max-content;
+  height: 40px;
+  font-size: 29px;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #677da8;
+}
+.profile {
+  width: 46px;
+  height: 46px;
+}
+.profile:hover {
+  cursor: pointer;
+}
+.imgs-box {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.cart-box:hover {
+  cursor: pointer;
+}
