@@ -1,0 +1,21 @@
+#selections {
+  height: 50px;
+  background-color: azure;
+}
+.select-all {
+  margin-left: 20px;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.heading4 {
+  width: max-content;
+}
+.select-all-input {
+  width: 20px;
+  border: 0;
+  border-radius: 100% !important;
+}
+.select-all [type="checkbox"] {
+  border-radius: 100% !important;
+}

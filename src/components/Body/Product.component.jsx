@@ -7,12 +7,12 @@ function Product(props) {
   return (
     <div id="product">
       <div className="top flexIt">
-        <img src={circle} alt="" srcset="" className="circle" />
-        <img src={props.img} alt="" srcset="" className="img" />
+        <img src={circle} alt="" srcSet="" className="circle" />
+        <img src={props.img} alt="" srcSet="" className="img" />
       </div>
       <div className="bottom">
         <div className="review">
-          <img src={star} alt="" srcset="" />
+          <img src={star} alt="" srcSet="" />
           <p>(11.6k Reviews)</p>
         </div>
         <div className="name">

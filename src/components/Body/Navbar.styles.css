@@ -17,6 +17,9 @@
   font-size: 18.51px;
   font-weight: 300;
 }
+.nav-menu li:hover {
+  cursor: pointer;
+}
 .logo-container {
   width: fit-content;
   height: fit-content;
@@ -24,6 +27,9 @@
 .logo {
   width: auto;
   height: 40px;
+}
+.logo:hover {
+  cursor: pointer;
 }
 .logo-title {
   margin-left: 10px;
@@ -34,6 +40,9 @@
   letter-spacing: 0em;
   text-align: left;
   color: #677da8;
+}
+.logo-title:hover {
+  cursor: pointer;
 }
 .profile {
   width: 46px;

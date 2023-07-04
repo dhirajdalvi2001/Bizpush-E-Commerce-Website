@@ -1,0 +1,42 @@
+#right-container {
+  width: 300px;
+  height: 100%;
+  border-left: 1px solid rgb(125, 143, 179, 0.3);
+}
+.top-right {
+  height: 50%;
+}
+.bottom-right {
+  margin: 20px auto 0;
+  padding-bottom: 10px;
+  width: 220px;
+  min-height: 270px;
+  height: max-content;
+  border-radius: 15px;
+  border: 1px solid rgb(125, 143, 179, 0.3);
+}
+#right-container .heading4 {
+  font-size: 12px;
+}
+.purple {
+  color: rgba(136, 51, 255, 1);
+}
+.bottom-title {
+  display: flex;
+  justify-content: space-between;
+}
+.head-text {
+  margin: 14px 14px 14px;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.head-text:hover {
+  cursor: pointer;
+}
+.three-dots {
+  margin-right: 20px;
+}
+.three-dots:hover {
+  cursor: pointer;
+}

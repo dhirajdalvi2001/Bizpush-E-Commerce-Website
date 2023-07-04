@@ -22,25 +22,25 @@ function Homepage() {
           <Link to="/shop">
             <button className="shop">Shop Now</button>
           </Link>
-          <img src={arrow} alt="" srcset="" className="arrow" />
+          <img src={arrow} alt="" srcSet="" className="arrow" />
           <div className="rating">
             <div className="rate">
               <div>4.3</div>
               <div className="flexIt">
-                <img src={star} alt="" srcset="" className="star" />
-                <img src={star} alt="" srcset="" className="star" />
-                <img src={star} alt="" srcset="" className="star" />
-                <img src={star} alt="" srcset="" className="star" />
-                <img src={star} alt="" srcset="" className="star" />
+                <img src={star} alt="" srcSet="" className="star" />
+                <img src={star} alt="" srcSet="" className="star" />
+                <img src={star} alt="" srcSet="" className="star" />
+                <img src={star} alt="" srcSet="" className="star" />
+                <img src={star} alt="" srcSet="" className="star" />
               </div>
             </div>
             <p className="reviews">(11.6k Total Review)</p>
           </div>
         </div>
         <div className="img-container">
-          <img src={shoes} alt="" srcset="" className="shoes" />
-          <img src={lines} alt="" srcset="" className="lines" />
-          <img src={shadow} alt="" srcset="" className="shadow" />
+          <img src={shoes} alt="" srcSet="" className="shoes" />
+          <img src={lines} alt="" srcSet="" className="lines" />
+          <img src={shadow} alt="" srcSet="" className="shadow" />
         </div>
       </div>
       <Products />

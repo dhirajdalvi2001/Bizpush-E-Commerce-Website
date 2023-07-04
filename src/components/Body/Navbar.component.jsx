@@ -11,7 +11,7 @@ function Navbar() {
     <div id="navbar">
       <ul className="nav-menu">
         <div className="logo-box flexIt">
-          <img src={logoSvg} alt="" srcset="" className="logo" />
+          <img src={logoSvg} alt="" srcSet="" className="logo" />
           <div className="logo-title flexIt">BIZPUSH</div>
         </div>
         <div className="items flexIt">
@@ -25,10 +25,10 @@ function Navbar() {
         </div>
         <div className="imgs-box flexIt">
           <div className="cart-box flexIt">
-            <img src={search} alt="" srcset="" className="search" />
-            <img src={cart} alt="" srcset="" className="cart" />
+            <img src={search} alt="" srcSet="" className="search" />
+            <img src={cart} alt="" srcSet="" className="cart" />
           </div>
-          <img src={profile} alt="" srcset="" className="profile" />
+          <img src={profile} alt="" srcSet="" className="profile" />
         </div>
       </ul>
     </div>
