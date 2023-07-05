@@ -68,3 +68,17 @@
     width: 40vw;
   }
 }
+@media screen and (max-width: 650px) {
+  #grid-single {
+    min-width: 260px;
+    width: 84vw;
+    font-size: 12px;
+  }
+  #content-single {
+    font-size: 12px;
+  }
+  .content img {
+    width: 35px;
+    height: 35px;
+  }
+}

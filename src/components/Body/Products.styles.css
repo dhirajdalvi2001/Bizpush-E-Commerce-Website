@@ -8,6 +8,19 @@
   font-weight: 700;
 }
 .products-list {
+  width: 100%;
   display: flex;
   justify-content: space-between;
+}
+@media screen and (max-width: 650px) {
+  #products .heading1 {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .products-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }

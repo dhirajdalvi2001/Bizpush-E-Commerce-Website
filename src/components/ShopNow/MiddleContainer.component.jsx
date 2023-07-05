@@ -56,7 +56,7 @@ function MiddleContainer() {
           </ul>
           <button className="add-button flexIt">
             <img src={plus} alt="" srcSet="" />
-            Add Product
+            Add &nbsp;<span className="hide">Product</span>
           </button>
         </div>
         <Products />

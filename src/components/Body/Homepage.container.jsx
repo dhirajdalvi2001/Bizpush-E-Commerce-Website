@@ -13,13 +13,13 @@ function Homepage() {
     <div id="homepage">
       <div className="top">
         <div className="text-container">
-          <h1 className="heading1">Purchase your shoes now.</h1>
+          <h1 className="heading1 purchase">Purchase your shoes now.</h1>
           <p className="content">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor morbi
             velit turpis et dolor sit morbi odio id. Aliquam ultricies tortor
             ac.
           </p>
-          <Link to="/shop">
+          <Link to="/shop" className="shop-box">
             <button className="shop">Shop Now</button>
           </Link>
           <img src={arrow} alt="" srcSet="" className="arrow" />

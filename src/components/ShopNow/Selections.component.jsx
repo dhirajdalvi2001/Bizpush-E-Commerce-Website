@@ -71,14 +71,25 @@ function Selections() {
           <h4 className="heading4">Select All</h4>
         </div>
         <ul className="filters flexIt">
-          <img src={filters} alt="" srcSet="" className="icon" />
-          <li className="filter-option">Filters</li>
-          <img src={search} alt="" srcSet="" className="icon" />
-          <li className="filter-option">Search</li>
-          <img src={edit} alt="" srcSet="" className="icon" />
-          <li className="filter-option">Edit</li>
-          <img src={deleteIcon} alt="" srcSet="" className="icon" />
-          <li className="filter-option">Delete</li>
+          <li className="filter-option flexIt">
+            <img src={filters} alt="" srcSet="" className="icon" />
+            <div className="hide">Filters</div>
+          </li>
+
+          <li className="filter-option flexIt">
+            <img src={search} alt="" srcSet="" className="icon" />
+            <div className="hide">Search</div>
+          </li>
+
+          <li className="filter-option flexIt">
+            <img src={edit} alt="" srcSet="" className="icon" />
+            <div className="hide">Edit</div>
+          </li>
+
+          <li className="filter-option flexIt">
+            <img src={deleteIcon} alt="" srcSet="" className="icon" />
+            <div className="hide">Delete</div>
+          </li>
         </ul>
         <div className="display">
           <div

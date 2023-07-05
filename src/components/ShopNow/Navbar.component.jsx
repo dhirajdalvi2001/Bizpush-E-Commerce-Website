@@ -37,7 +37,9 @@ function Navbar() {
             className="search-bar"
           />
         </div>
-        <img src={profilepic} alt="" srcSet="" className="profilepic" />
+        <div className="circle flexIt">
+          <img src={profilepic} alt="" srcSet="" className="profilepic" />
+        </div>
         <h4 className="heading4">Clayton Santos</h4>
         <img src={red} alt="" srcSet="" className="red" />
         <img src={notification} alt="" srcSet="" className="notification" />

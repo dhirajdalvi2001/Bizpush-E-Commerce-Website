@@ -59,3 +59,14 @@
 .cart-box:hover {
   cursor: pointer;
 }
+@media screen and (max-width: 1300px) {
+  #navbar {
+    margin: auto;
+    width: max-content;
+  }
+}
+@media screen and (max-width: 650px) {
+  #navbar .items {
+    display: none;
+  }
+}

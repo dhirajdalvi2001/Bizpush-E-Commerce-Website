@@ -66,3 +66,29 @@
     width: 100%;
   }
 }
+@media screen and (max-width: 550px) {
+  .hide {
+    display: none;
+  }
+  .middle-box {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mid-top-navbar {
+    background-color: #fff;
+    border-radius: 15px;
+    height: 60%;
+  }
+  .active {
+    display: block !important;
+    color: rgba(136, 51, 255, 1);
+    border-bottom: 0;
+    order: 0;
+  }
+  #middle-container .heading4 {
+    margin-left: 20px;
+  }
+  #middle-container .mid-nav-item {
+    display: none;
+  }
+}
