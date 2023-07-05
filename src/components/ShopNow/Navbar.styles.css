@@ -108,6 +108,9 @@
   .profile-box {
     width: fit-content;
   }
+.profilepic {
+  margin-left: 0;
+}
 }
 @media screen and (max-width: 900px) {
   .snav-item {
