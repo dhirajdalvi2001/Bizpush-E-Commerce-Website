@@ -1,19 +1,22 @@
 #middle-container {
   width: 90vw;
   height: 100%;
+  max-height: max-content;
   position: relative;
 }
 .middle-box {
   margin: 20px;
   width: 96%;
-  height: 94%;
-  background-color: rgba(242, 243, 245, 1);
+  max-height: max-content;
+  background-color: rgba(255, 255, 255, 1);
   border-radius: 20px;
   overflow: hidden;
 }
 .mid-top {
+  height: 60px;
   display: flex;
   justify-content: space-between;
+  background-color: rgba(242, 243, 245, 1);
   align-items: center;
 }
 .mid-top-products {
@@ -40,10 +43,10 @@
 }
 .active {
   color: rgba(136, 51, 255, 1);
-  border-bottom: 1px solid rgba(136, 51, 255, 1);
+  border-bottom: 2px solid rgba(136, 51, 255, 1);
 }
 .mid-nav-item {
-  padding: 12px;
+  padding: 20px 10px;
   width: max-content;
   cursor: pointer;
   font-size: 13px;
@@ -57,4 +60,9 @@
   background-color: rgba(136, 51, 255, 1);
   color: white;
   border: 0;
+}
+@media screen and (max-width: 1300px) {
+  #middle-container {
+    width: 100%;
+  }
 }

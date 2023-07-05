@@ -1,10 +1,19 @@
 #selections {
-  height: 50px;
-  background-color: azure;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgb(247, 248, 250);
+}
+#selections li {
+  list-style-type: none;
 }
 .select-all {
+  cursor: pointer;
   margin-left: 20px;
-  width: 100px;
+  width: 120px;
   display: flex;
   justify-content: space-between;
 }
@@ -16,6 +25,38 @@
   border: 0;
   border-radius: 100% !important;
 }
-.select-all [type="checkbox"] {
-  border-radius: 100% !important;
+.filters {
+  padding: 0 20px;
+  width: 350px;
+  height: 80%;
+  border-radius: 12px;
+  border: 1px solid rgb(125, 143, 179, 0.3);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+.filter-option {
+  width: max-content;
+}
+.display {
+  cursor: pointer;
+  display: flex;
+}
+.display-content {
+  cursor: pointer;
+  width: max-content;
+}
+.display-grid {
+  cursor: pointer;
+  width: max-content;
+}
+#selections .icon {
+  width: 14px;
+  height: 14px;
+}
+#products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: max-content;
 }

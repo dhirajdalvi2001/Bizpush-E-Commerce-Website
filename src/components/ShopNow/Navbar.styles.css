@@ -3,6 +3,8 @@
   top: 0;
   width: 100%;
   height: 70px;
+  position: sticky;
+  z-index: 2;
   display: flex;
   justify-content: space-between;
   background-color: rgba(247, 248, 250, 1);
@@ -34,7 +36,7 @@
 }
 .search-bar {
   width: 350px;
-  height: 100%;
+  height: 50px;
   text-indent: 50px;
   border-radius: 50px;
   border: 0;
@@ -58,7 +60,7 @@
 }
 #snavbar .search {
   position: relative;
-  right: 330px;
+  left: 36px;
   filter: invert(59%) sepia(14%) saturate(901%) hue-rotate(182deg)
     brightness(95%) contrast(76%);
 }
@@ -84,4 +86,52 @@
 }
 #snavbar .dots:hover {
   cursor: pointer;
+}
+@media screen and (max-width: 1300px) {
+  .search-bar {
+    width: 50px;
+  }
+  .search-bar::placeholder {
+    display: none;
+  }
+  #snavbar .search {
+    position: relative;
+    right: 36px;
+  }
+  .snav-item {
+    padding: 5px;
+    width: fit-content;
+  }
+  .profile-box {
+    width: fit-content;
+  }
+}
+@media screen and (max-width: 900px) {
+  .snav-item {
+    display: none;
+  }
+  .dots {
+    display: none;
+  }
+  .search-container {
+    order: 2;
+  }
+  .profilepic {
+    order: 1;
+  }
+  .heading4 {
+    order: 1;
+  }
+  .red {
+    order: 2;
+  }
+  .notification {
+    order: 2;
+  }
+  .cross {
+    order: 2;
+  }
+  .search {
+    
+  }
 }

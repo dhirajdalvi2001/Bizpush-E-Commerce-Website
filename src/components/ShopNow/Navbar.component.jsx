@@ -28,15 +28,15 @@ function Navbar() {
           <img src={dots} alt="" srcSet="" />
         </li>
       </ul>
-      <div className="search-container flexIt">
-        <input
-          type="text"
-          placeholder="Search Transactions and Documents"
-          className="search-bar"
-        />
-        <img src={search} alt="" srcSet="" className="search" />
-      </div>
       <div className="profile-box flexIt">
+        <div className="search-container flexIt">
+          <img src={search} alt="" srcSet="" className="search" />
+          <input
+            type="text"
+            placeholder="Search Transactions and Documents"
+            className="search-bar"
+          />
+        </div>
         <img src={profilepic} alt="" srcSet="" className="profilepic" />
         <h4 className="heading4">Clayton Santos</h4>
         <img src={red} alt="" srcSet="" className="red" />

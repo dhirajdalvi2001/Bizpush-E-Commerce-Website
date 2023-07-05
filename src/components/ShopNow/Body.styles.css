@@ -1,6 +1,7 @@
 #sbody {
   width: 100%;
-  height: 90vh;
+  min-height: 90vh;
+  max-height: max-content;
   display: flex;
   justify-content: space-between;
   position: relative;
